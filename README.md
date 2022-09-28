@@ -24,3 +24,19 @@ public:
         return color;
     }
 };
+class Dog : public Animal {
+
+public:
+    void setType(string tp) {
+        type = tp;
+    }
+
+    void displayInfo(string c) {
+        cout << "I am a " << type << endl;
+        cout << "My color is " << c << endl;
+    }
+
+    void bark() {
+        cout << "I can bark! Woof woof!!" << endl;
+    }
+};
