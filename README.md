@@ -42,9 +42,3 @@ public:
     }
 };
 
-class Cat : public Animal {
-public:
-    void meow() {
-        cout << "I can meoww! Meoww meoww!!" << endl;
-    }
-};
